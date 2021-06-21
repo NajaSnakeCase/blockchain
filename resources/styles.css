@@ -1,0 +1,286 @@
+@font-face {
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat, sans-serif; 
+}
+
+.header_container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.header_container::after {
+    clear: both;
+    content: '';
+    display: table; 
+}
+
+.Logo {
+    float: left;
+    width: 130px;
+    margin-top: 48px;
+}
+
+.Navigation {
+    float: right;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.Navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navigation li {
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Navigation a:hover {
+    color: #acfdfe;
+}
+
+.Navigation li:first-child {
+    background-color: #fff;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+
+.Navigation .Stylish {
+    color: #000;
+    font-weight: 600; 
+}
+
+.Navigation .Stylish:hover {
+    color: #000;
+}
+
+.page_one_index {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.title {
+    padding-bottom: 5px;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #fff;
+}
+
+.h2 {
+    letter-spacing: 25px;
+    font-weight: 100;
+    color: #acfdfe;
+    margin-bottom: 20px;
+}
+
+.title_wrapper::after {
+    content:'';
+    width: 23%;
+    height: 3px;
+    display: inline-block;
+    background: #acfdfe;
+}
+
+main p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #acfdfe;
+    width: 50%;
+    margin: 0 auto; 
+}
+.contact_container {
+    background-color: #fff;
+    font-family: Montserrat, sans-serif;
+} 
+
+.header_contact {
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header_container_extension {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header_extension_title div {
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.header_container_extension p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.header_extension_title::after {
+    content: '';
+    width: 400px;
+    height: 2px;
+    display: inline-block;
+    background: #00ffff;
+}
+
+.page_two_contact {
+    height: 100%;
+    width: 100%;
+     
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+.form_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.Label {
+    display: block; 
+    margin-top: 40px;
+    padding-bottom: 10px; 
+}
+
+.Label:nth-of-type(4) {
+    margin-top: 100px;
+}
+
+.Input {
+    display: block;
+    width: 250px;
+    height: 25px;
+    padding: 5px 35px;
+    border-color: #ECF0F1;
+}
+
+.Input::placeholder {
+    font-size: 16px;
+    color: #999999;
+}
+
+.TextArea {
+    height: 75px;
+}
+
+form img {
+    width: 24px;
+    position: relative;
+    top: 102px;
+    left: 4px;
+}
+
+.email_form_wrapper::after {
+    content: '';
+    display: inline-block;
+    width: 330px;
+    height: 2px;
+    background: #00ffff;
+    margin-top: 50px;
+}
+
+.button_wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    padding: 7px 30px;
+    border-radius: 0px;
+    border: 0px;
+    background: #00ffff;
+}
+
+.button_wrapper div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.button_wrapper div span {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.footer_container {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer_container div:first-child {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footer_container div:last-child {
+    text-transform: uppercase;
+    color: #00ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
